@@ -4,7 +4,7 @@ var winston = require('winston');
 var TR =   require('../').Transport;
 var Sink = require('../').Sink;
 
-var sink = new Sink ({max_files: 7, max_size:10000});
+var sink = new Sink ({max_files: 7, max_size:10000, max_age: '2m'});
 sink.run ();
 
 var logger1 = winston.createLogger({
