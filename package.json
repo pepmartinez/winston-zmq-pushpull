@@ -1,6 +1,6 @@
 {
   "name": "winston-zmq-pushpull",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "Winston v3 transport (and sink) over zeromq using vent-sink (aka pull-push)",
   "private": false,
   "scripts": {},
