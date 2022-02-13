@@ -1,6 +1,6 @@
 {
   "name": "winston-zmq-pushpull",
-  "version": "3.0.9",
+  "version": "3.0.10",
   "description": "Winston v3 transport (and sink) over zeromq using vent-sink (aka pull-push)",
   "private": false,
   "scripts": {},
@@ -13,6 +13,6 @@
     "winston": "~3.2.1",
     "winston-daily-rotate-file": "~3.10.0",
     "winston-transport": "~4.3.0",
-    "zeromq": "~5.1.0"
+    "zeromq": "~5.2.8"
   }
 }
