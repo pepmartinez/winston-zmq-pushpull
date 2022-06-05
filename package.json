@@ -1,18 +1,18 @@
 {
   "name": "winston-zmq-pushpull",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "description": "Winston v3 transport (and sink) over zeromq using vent-sink (aka pull-push)",
   "private": false,
   "scripts": {},
   "dependencies": {
-    "fs-extra": "~8.1.0",
-    "klaw": "~3.0.0",
+    "fs-extra": "~10.1.0",
+    "klaw": "~4.0.1",
     "lodash": "~4.17.21",
     "to-time": "~1.0.2",
     "triple-beam": "~1.3.0",
-    "winston": "~3.2.1",
-    "winston-daily-rotate-file": "~3.10.0",
-    "winston-transport": "~4.3.0",
+    "winston": "~3.7.2",
+    "winston-daily-rotate-file": "~4.7.1",
+    "winston-transport": "~4.5.0",
     "zeromq": "~5.2.8"
   }
 }
