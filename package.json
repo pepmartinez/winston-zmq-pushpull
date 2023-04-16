@@ -1,9 +1,27 @@
 {
   "name": "winston-zmq-pushpull",
-  "version": "3.0.11",
   "description": "Winston v3 transport (and sink) over zeromq using vent-sink (aka pull-push)",
-  "private": false,
-  "scripts": {},
+  "version": "3.1.0",
+  "keywords": [
+    "log",
+    "winston",
+    "zeromq",
+    "zmq"
+  ],
+  "homepage": "https://github.com/pepmartinez/winston-zmq-pushpull",
+  "bugs": {
+    "url": "https://github.com/pepmartinez/winston-zmq-pushpull/issues",
+    "email": "pep.martinez@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pepmartinez/winston-zmq-pushpull.git"
+  },
+  "author": {
+    "name": "Jose Luis Martinez Juan",
+    "email": "pep.martinez@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "fs-extra": "~10.1.0",
     "klaw": "~4.0.1",
@@ -14,5 +32,7 @@
     "winston-daily-rotate-file": "~4.7.1",
     "winston-transport": "~4.5.0",
     "zeromq": "~5.2.8"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {}
 }
